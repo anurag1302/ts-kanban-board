@@ -1,4 +1,4 @@
-import { Task } from "../interfaces/Task";
+import { Task } from "../interfaces/Task.js";
 
 export class TaskModel {
   constructor(public task: Task) {}

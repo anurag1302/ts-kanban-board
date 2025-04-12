@@ -1,5 +1,4 @@
 import { Task } from "../interfaces/Task";
-import { TaskModel } from "../models/TaskModel";
 import { TaskBoard } from "../app";
 
 export class Column {
