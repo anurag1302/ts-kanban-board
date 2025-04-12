@@ -1,0 +1,20 @@
+{
+  "name": "ts-kanban-board",
+  "version": "1.0.0",
+  "description": "Kanban Board using basic HTML CSS TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag1302/ts-kanban-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurag1302/ts-kanban-board/issues"
+  },
+  "homepage": "https://github.com/anurag1302/ts-kanban-board#readme"
+}
