@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskBoard</title>
     <link rel="stylesheet" href="styles.css" />
-    <title>Document</title>
   </head>
   <body>
-    <h1>Hello World</h1>
-    <h2>Program</h2>
+    <h1>TaskBoard</h1>
+    <div id="board" class="board">
+      <div id="todo" class="column" data-status="todo">
+        <h2>To Do</h2>
+        <button onclick="addTask('todo')">+ Add Task</button>
+        <div class="task-list" id="todo-list"></div>
+      </div>
+      <div id="in-progress" class="column" data-status="in-progress">
+        <h2>In Progress</h2>
+        <button onclick="addTask('in-progress')">+ Add Task</button>
+        <div class="task-list" id="in-progress-list"></div>
+      </div>
+      <div id="done" class="column" data-status="done">
+        <h2>Done</h2>
+        <button onclick="addTask('done')">+ Add Task</button>
+        <div class="task-list" id="done-list"></div>
+      </div>
+    </div>
+    <script type="module" src="./dist/app.js"></script>
   </body>
 </html>
